@@ -29,9 +29,8 @@
     </dependency>
     <dependency>
       <groupId>com.corp.concepts.process.automation.handler</groupId>
-      <artifactId>log</artifactId>
+      <artifactId>customlog</artifactId>
       <version>7.39.0.Final-redhat-00005</version>
-      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.optaplanner</groupId>
