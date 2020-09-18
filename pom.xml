@@ -31,7 +31,7 @@
       <groupId>com.corp.concepts.process.automation.handler</groupId>
       <artifactId>log</artifactId>
       <version>7.39.0.Final-redhat-00005</version>
-      <scope>provided</scope>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.optaplanner</groupId>
