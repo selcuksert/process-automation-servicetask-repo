@@ -1,4 +1,2 @@
-Repository Init Content
-=======================
-
-Your project description here.
+# process-automation-servicetask-repo
+RHPAM service task repo project
