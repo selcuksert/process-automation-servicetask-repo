@@ -6,12 +6,54 @@ package com.corp.todo;
 
 public class Task implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Task() {
-    }
+	private java.lang.Long userId;
+	private java.lang.Long id;
+	private java.lang.String title;
+	private java.lang.Boolean completed;
 
+	public Task() {
+	}
 
+	public java.lang.Long getUserId() {
+		return this.userId;
+	}
 
+	public void setUserId(java.lang.Long userId) {
+		this.userId = userId;
+	}
+
+	public java.lang.Long getId() {
+		return this.id;
+	}
+
+	public void setId(java.lang.Long id) {
+		this.id = id;
+	}
+
+	public java.lang.String getTitle() {
+		return this.title;
+	}
+
+	public void setTitle(java.lang.String title) {
+		this.title = title;
+	}
+
+	public java.lang.Boolean getCompleted() {
+		return this.completed;
+	}
+
+	public void setCompleted(java.lang.Boolean completed) {
+		this.completed = completed;
+	}
+
+	public Task(java.lang.Long userId, java.lang.Long id,
+			java.lang.String title, java.lang.Boolean completed) {
+		this.userId = userId;
+		this.id = id;
+		this.title = title;
+		this.completed = completed;
+	}
 
 }
