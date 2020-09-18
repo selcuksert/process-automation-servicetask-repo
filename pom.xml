@@ -56,4 +56,11 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-snapshots</name>
+        <url>http://localhost:8081/artifactory/pam</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
