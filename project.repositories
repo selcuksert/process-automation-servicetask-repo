@@ -24,5 +24,13 @@
         <source>SETTINGS</source>
       </metadata>
     </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>snapshots</id>
+        <url>http://localhost:8081/artifactory/pam</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
   </repositories>
 </project-repositories>
