@@ -28,6 +28,12 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
+      <groupId>com.corp.concepts.process.automation.handler</groupId>
+      <artifactId>log</artifactId>
+      <version>7.39.0.Final-redhat-00005</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
       <groupId>org.optaplanner</groupId>
       <artifactId>optaplanner-persistence-jaxb</artifactId>
       <version>7.39.0.Final-redhat-00005</version>
