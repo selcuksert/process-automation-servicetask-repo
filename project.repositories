@@ -3,14 +3,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>snapshots</id>
-        <url>http://mavenserver:8081/artifactory/pam</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>local</id>
         <url>/opt/jboss/.m2/repository</url>
         <source>LOCAL</source>
@@ -20,6 +12,14 @@
       <include>true</include>
       <metadata>
         <id>central</id>
+        <url>http://mavenserver:8081/artifactory/pam</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>snapshots</id>
         <url>http://mavenserver:8081/artifactory/pam</url>
         <source>SETTINGS</source>
       </metadata>
