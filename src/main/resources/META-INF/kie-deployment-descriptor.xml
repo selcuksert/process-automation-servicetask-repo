@@ -12,6 +12,12 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new com.corp.concepts.process.automation.handler.mysql.MySQLWorkItemHandler(classLoader)</identifier>
+            <parameters/>
+            <name>MySQLTask</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler(classLoader)</identifier>
             <parameters/>
             <name>Rest</name>
