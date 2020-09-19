@@ -1,0 +1,29 @@
+[
+        [
+            "name" : "MySQLTask",
+            "displayName" : "MySQLTask",
+            "category" : "mysql",
+            "description" : "",
+            "defaultHandler" : "mvel: new com.corp.concepts.process.automation.handler.mysql.MySQLWorkItemHandler(classLoader)",
+            "documentation" : "mysql/index.html",
+
+            "parameters" : [
+                                "password" : new StringDataType()
+                ,"taskToInsert" : new StringDataType()
+                ,"url" : new StringDataType()
+                ,"username" : new StringDataType()
+
+            ],
+            "results" : [
+                                "completed" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "com.corp.concepts.process.automation.handler:mysql:7.39.0.Final-redhat-00005"
+
+            ],
+            "icon" : "MySQLTask.png"
+
+        ]
+
+]
