@@ -57,11 +57,6 @@
       <version>1.4.11.1-redhat-00001</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>com.corp.concepts.process.automation.handler</groupId>
-      <artifactId>mysql</artifactId>
-      <version>7.39.0.Final-redhat-00005</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
