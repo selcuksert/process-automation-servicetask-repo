@@ -8,6 +8,13 @@
   <packaging>kjar</packaging>
   <name>ToDo</name>
   <description></description>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>artifactory-snapshots</name>
+      <url>http://mavenserver:8081/artifactory/pam</url>
+    </snapshotRepository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
@@ -50,6 +57,11 @@
       <version>1.4.11.1-redhat-00001</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.corp.concepts.process.automation.handler</groupId>
+      <artifactId>mysql</artifactId>
+      <version>7.39.0.Final-redhat-00005</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -61,11 +73,4 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>artifactory-snapshots</name>
-        <url>http://mavenserver:8081/artifactory/pam</url>
-    </snapshotRepository>
-  </distributionManagement>
 </project>
