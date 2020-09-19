@@ -12,15 +12,11 @@
                 ,"dataToLog" : new StringDataType()
 
             ],
-            "results" : [
-                                "data" : new StringDataType()
-
-            ],
             "mavenDependencies" : [
                                  "com.corp.concepts.process.automation.handler:customlog:7.39.0.Final-redhat-00005"
 
             ],
-            "icon" : "icon.png"
+            "icon" : "CustomLogTask.png"
 
         ]
 
